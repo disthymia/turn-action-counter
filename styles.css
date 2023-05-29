@@ -1,0 +1,54 @@
+body {
+    background-image: url("../images/tomasz-jedruszek-arkhamas.jpg");
+    background-size: cover;
+    font-family: 'Futura', 'Century Gothic', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    background-position: top right;
+    color: floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 3vh;
+    margin-bottom: 10px;
+    margin: 3vh 3vh 10px 3vh;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 210px;
+    margin: 0 5px 10px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #5C3720;
+}
+
+#save-btn {
+    background: #362E25;
+}
+
+.width-container {
+    width: 85%;
+    max-width: 500px;
+    background-color: rgba(100,100,130,30%);
+    border-radius: 8px;
+}
+
+p {
+    margin-bottom: 3vh;
+}
